@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Exercise 3</title>
+        <meta charset = "utf-8" />
+</head>
+<body onload="getUserInfo()">
+    <p><strong>User Information:</strong></p>
+    <div id = "content">   </div>
+
+    <script type="text/javascript">
+            function getUserInfo(){
+            var fullName = prompt("What is full name?");
+            var yourAge = prompt("How old are you?");
+            document.getElementById("content").innerHTML = "Hi, my name is " + fullName + " and I'm " + yourAge + " years old.";
+            }
+    </script>
+</body>
+</html>

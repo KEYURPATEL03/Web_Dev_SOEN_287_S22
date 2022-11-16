@@ -1,0 +1,147 @@
+.bodycontent{
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+  }
+.heading{
+    position: absolute;
+    background-color:rgb(192, 178, 153);
+    width:100%;
+    height: 15%;
+    font-family: cursive;
+  }
+  .sidemenu{
+    position: absolute;
+    background-color: #5364b1;
+    width: 20%;
+    height: 75%;
+    top: 15%;
+    font-family: cursive;
+  }
+  .footer{
+    position: absolute;
+    background-color: #cdb4db;
+    width: 100%;
+    height: 10%;
+    bottom: 0%;
+  }
+  .center{
+    text-align: center;
+  }
+  .HomeContent{
+    position: absolute;
+    background-image:url(Dogs_Cats_White_background_Kittens_Pug_Beagle_528567_1280x540.jpeg);
+    background-position:center;
+    background-size:contain;
+    background-repeat:no-repeat;
+    top: 15%;
+    height: 70%;
+    left: 20%;
+    bottom: 10%;
+    right: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .HomeContent p{
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:10%;
+    color:rgb(0, 0, 0);
+    background-color:rgba(131, 114, 136, 0.9);
+    border:solid;
+    font-size:30px;
+
+}
+.browse{
+  position: absolute;
+  background-color: white;
+  top: 15%;
+  left: 20%;
+  bottom: 10%;
+  right: 0%;
+  text-align: center;
+}
+
+  .font{
+    font-size: 1.1em;
+  }
+
+  li {
+    font-size: large;
+    width: 100%;
+    padding: 3%;
+    list-style-type: none;
+}
+.tab{
+  margin-right: auto;
+  margin-left: auto;
+}
+.img{
+    float: right;
+}
+
+.contact{
+  position: absolute;
+  background-color: white;
+  top: 15%;
+  left: 20%;
+  bottom: 10%;
+  right: 0%;
+  padding-top: 5cm;
+  text-align: center;
+  font-size: 1.2em;
+  font-family: monospace;
+}
+
+.find{
+  position: absolute;
+    background-color: white;
+    top: 15%;
+    left: 20%;
+    bottom: 10%;
+    right: 0%;
+    font-size:24px;
+    height:70%;
+    margin-left:0%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.giveaway{
+  position: absolute;
+    background-color: white;
+    top: 15%;
+    left: 25%;
+    bottom: 10%;
+    right: 0%;
+    font-size:24px;
+    line-height: 24px;
+    width:60%;
+    margin-left:0%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.care{
+  position: absolute;
+  top: 15%;
+  height: 70%;
+  left: 20%;
+  bottom: 10%;
+  right: 0%;
+}
+
+.disclaimer p{
+    position: absolute;
+    top: 15%;
+    height: 70%;
+    left: 20%;
+    bottom: 40%;
+    right: 0%;
+    text-align: center;
+}
+

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Excercise 1</title>
+    <menu charset = "utf-8" >
+        <script type="text/javascript">
+			function addNumbers(numArray) {
+				let sum = 0;
+				for (i = 0; i < numArray.length; i++) {
+					sum += numArray[i];
+				}
+				return sum;
+			}
+			function getCurrentDate() {
+				const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+				const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+				const d = new Date();
+				let month = months[d.getMonth()];
+				let dayOfWeek = days[d.getDay()];
+
+				document.write(dayOfWeek, ', ', month, ' ', d.getDate(), ', ', d.getFullYear());
+			}
+			function arrayToString(arr) {
+				let str = '';
+				for (i = 0; i < arr.length; i++) {
+					str += arr[i];
+				}
+				return str;
+			}
+			function findMaxNumber(arr) {
+				if (arr[0] == undefined) return;
+				let max = arr[0];
+				for (i = 1; i < arr.length; i++) {
+					if (max < arr[i]) {
+						max = arr[i];
+					}
+				}
+				return max;
+			}
+			function getDigits(str) {
+				let arr = str.split('');
+				let str1 = '';
+				for (i = 0; i < arr.length; i++) {
+					if (arr[i] == '0' || arr[i] == '1' || arr[i] == '2' || arr[i] == '3 ' || arr[i] == '4' || arr[i] == '5' || arr[i] == '6' || arr[i] == '7' || arr[i] == '8' || arr[i] == '9') {
+						str1 += String(arr[i]);
+					}
+				}
+				return str1;
+			}
+			function reverseString(str){
+            var reverse = "";
+            var j = str.length - 1;
+            for(var i = j; i>=0; i--){
+                reverse += str[i];
+            }
+            return reverse;
+        }
+		</script>
+</head>
+<body>
+    <h1>addNumbers</h1>
+
+		<h4>The following array is being passed to the function: [6, 1, 3, 9]</h4>
+		<script type="text/javascript">
+			arrOfNum = [6, 1, 3, 9];
+			document.write('result: ', addNumbers(arrOfNum));
+		</script>
+
+	<h1>getCurrentDate</h1>
+		<script type="text/javascript">
+			getCurrentDate();
+		</script>
+
+	<h1>arrayToString</h1>
+		<h4>The following array is being passed to the function: ['this', 'pearl', 'looks', 'beautiful']</h4>
+		<script type="text/javascript">
+			arr = ['this', 'pearl', 'looks', 'beautiful'];
+			document.write('result: ', arrayToString(arr));
+		</script>
+
+	<h1>findMaxNumber</h1>
+		<h4>This array is given to the function: [1000,109,6,-20]</h4>
+		<script type="text/javascript">
+			arr = [1000, 109, 6, -20];
+			document.write('result: ', findMaxNumber(arr));
+		</script>
+
+	<h1>getDigits</h1>
+		<h4>This string is given to the function: 18e723i12love78you</h4>
+		<script type="text/javascript">
+			str = '18e723i12love78you';
+			document.write('result: ', getDigits(str));
+		</script>
+
+	<h1>reverseString</h1>
+		<h4>This string is given to the function: 'drow emordnilap a si LOL'</h4>
+		<script type="text/javascript">
+			str = '  drow emordnilap a si LOL';
+			document.write('result: ', reverseString(str));
+		</script>
+
+
+    </body>
+</html>

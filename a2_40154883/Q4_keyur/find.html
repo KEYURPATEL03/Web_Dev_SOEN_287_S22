@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="HomePage.css">
+    <title>Browse</title>
+   
+</head>
+<body>
+    <div class="bodycontent">
+
+        <div class="heading">
+            <table class="tab">
+                <tr>
+                    <th><h1>Loved pet Shelter</h1></th>
+                    <td><a href="HomePage.html"><img src="logo.jpeg" width="25%" height="25%"></a></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="sidemenu">
+            <h2 class="center">Menu Bar</h2>
+            <ul>
+                <li><a href="HomePage.html">Home Page</a></li>
+                <li><a href="browse.html">Browse Available Pets</a></li>
+                <li><a href="find.html">Find a dog/cat</a></li>
+                <li><a href="care.html"></a>Dog/Cat Care</li>
+                <li><a href="giveaway.html">Have a pet to give away</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="find">
+            <form method="post">
+                <label>Type of Pet:</label>
+                <label>Dog</label><input type="radio" name="pet-type" id="dog">
+                <label>Cat</label><input type="radio" name="pet-type" id="cat">
+                <br><br>
+                <label>Pet Breed:</label>
+                <select name="breed">
+                    <option name="breed" id="breed-black-lab">Black Lab (Dog)</option>
+                    <option name="breed" id="breed-chocolate-lab">Chocolate Lab (Dog)</option>
+                    <option name="breed" id="breed-golden-retriever">Golden Retriever (Dog)</option>
+                    <option name="breed" id="breed-chihuahua">Chihuahua (Dog)</option>
+                    <option name="breed" id="breed-basset-hound">Basset Hound (Dog)</option>
+                    <option name="breed" id="breed-siamese">Siamese (Cat)</option>
+                    <option name="breed" id="breed-persian">Persian (Cat)</option>
+                    <option name="breed" id="breed-maine-coon">Maine Coon (Cat)</option>
+                    <option name="breed" id="breed-bengal">Bengal (Cat)</option>
+                    <option name="breed" id="breed-other">Does not matter</option>
+                </select>
+                <br><br>
+                <label>Preffered Age: </label>
+                <select name="age">
+                    <option name="age" id="age-0-1">0 - 1</option>
+                    <option name="age" id="age-1-2">1 - 2</option>
+                    <option name="age" id="age-2-3">2 - 3</option>
+                    <option name="age" id="age-3-6">3 - 6</option>
+                    <option name="age" id="age-6-8">6 - 8</option>
+                    <option name="age" id="age-8+">8+</option>
+                    <option name="age" id="age-other">Does not matter</option>
+                </select>
+                <br><br>
+                <label>Preffered Gender: </label>
+                <input type="radio" name="gender" id="gender-male">Male
+                <input type="radio" name="gender" id="gender-female">Female
+                <input type="radio" name="gender" id="gender-other">Other
+                <br><br>
+                <label>Gets Along With: </label>
+                <input type="checkbox" name="get-along" id="get-along-dog">Dogs
+                <input type="checkbox" name="get-along" id="get-along-cat">Cat
+                <input type="checkbox" name="get-along" id="get-along-children">Children
+                <br><br>
+                <input type="submit" name="submit" id="submit-button">
+                <input type="reset" name="reset" id="reset-button">
+            </form>
+        </div>
+        <div class="footer">
+            <a href="disclaimer.html">Privacy/Disclaimer Statement</a>
+        </div>
+
+    </div>
+    
+</body>
+</html>

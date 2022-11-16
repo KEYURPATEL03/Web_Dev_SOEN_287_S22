@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>   
+    <title>Q4</title>
+    <style type="text/css">
+      .page {background-color: rgb(255, 255, 146);}
+      fieldset.first {
+          border-color:#0000FF;
+          background-color: #a9a9ff;
+      }
+      legend.first {
+          color: #0000FF;
+      }
+      fieldset.second {
+          border-color: #ff107c;;
+          background-color: #ff98c6;;
+      }
+      legend.second{
+          color: #ff107c;
+      }
+      label {
+          font-weight: bold;
+      }
+
+  </style>
+</head>    
+<body class="page">
+    <table>
+        <tr>
+            <td style="font-size: 20pt;font-weight: bold;">Music Lover's Survey</td>
+            <td><a href="https://hiphopun.com/entertainment/music/expectant-babies-soon-to-be-born-in-2019/">
+            <img src=musicNotes.jpg
+                height="70"
+                width="70"/>
+                </a>
+            </td>
+        </tr>    
+    </table> 
+
+    <form>
+        <fieldset class = "first">
+            <legend class = "first">Music Lover's Personal information</legend>
+
+            <label for="firstname">First Name</label>
+                <input type="text" id="fN" name="firstname"> <br><br>
+            <label for="familyname">Family Name</label>
+                <input type="text" id="familyN" name="familyname"> <br><br>
+            <label for="gender">Gender:</label>
+                <input type="radio" id="Female" name="gender" >Female  
+                <input type="radio" id="Male" name="gender" >Male <br><br>
+
+            <label for="age">What age category are you from?
+                <select>
+                    <option>Less than 18</option> 
+                    <option>Between 18 & 35</option>
+                    <option>Between 35 & 60</option>
+                    <option>More than 60</option>
+                 </select><br><br>
+            </label>
+
+            <label for="email">Email</label>
+                <input type="email" id="email" name="email"> 
+
+
+
+        </fieldset>
+
+        <fieldset class = "second">
+            <legend class = "second">Survey Questions</legend>
+
+            <label>Which type of music do you listen to? (Pick as many as apply)</label><br>
+            <input type="checkbox" id="1" name="M1">Blues
+            <input type="checkbox" id="2" name="M2" >Classical music
+            <input type="checkbox" id="3" name="M3">Electronic Music <br>
+            <input type="checkbox" id="4" name="M4">Hip Hop/Rap
+            <input type="checkbox" id="5" name="M5">Folk Music
+            <input type="checkbox" id="6" name="M6">Reggae
+            <input type="checkbox" id="7" name="M7">Pop (Popular music) <br>
+            <input type="checkbox" id="8" name="M">Other <br><br>
+
+            <label>List your 3 favorite artist/bands:</label><br>
+            <input type="text" id="1" name="artist/band1">
+            <input type="text" id="2" name="artist/band2">
+            <input type="text" id="3" name="artist/band3"> <br><br>
+
+            <label>If you were to win tickets which show would you like 2 tickets to?</label><br>
+            <input type="radio" id="1" name="t">BRIT FLOYD (March 24, 2016)
+            <input type="radio" id="2" name="t">IRON MAIDEN (April 1, 2016)
+            <input type="radio" id="3" name="t">JANET JACKSON (June 17, 2016)
+            <input type="radio" id="4" name="t">ADELE (September 30, 2016)
+        <br><br>
+        </fieldset>
+
+        <p>Thank you for taking the time to fill out our survey!</p>
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+
+    </form>      
+</body>
+</html>
